@@ -1,0 +1,27 @@
+@page {
+  margin: .5in;
+}
+@media all {
+  html, body{
+    width: 100%;
+    height: 100%;
+    border: 3px solid orangered;
+    box-sizing: border-box;
+  }
+  div.right{
+    position:absolute;
+    top:0px;
+    right:0px;
+    width:45.238%;
+    height:100%;
+    border: 1px solid black;
+  }
+  div.left{
+    position:absolute;
+    top:0;
+    left:0;
+    width:45.238%;
+    height:100%;
+    border: 1px solid black;
+  }
+}
